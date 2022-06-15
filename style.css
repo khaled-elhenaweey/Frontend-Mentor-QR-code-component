@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  background-color: #d6e2f0;
+  padding-bottom: 12px;
+}
+
+.attribution a {
+  color: #3e52a3;
+  font-weight: 700;
+}
+
+.qr-component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d6e2f0;
+  height: 100vh;
+}
+
+.qr-component .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 16px;
+  border-radius: 16px;
+  width: 240px;
+}
+
+.qr-component .card .card-img {
+  width: 240px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.qr-component .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.qr-component .card .card-body .card-title,
+.qr-component .card .card-body .card-info {
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.qr-component .card .card-body .card-title {
+  font-weight: 700;
+  color: #1f3251;
+}
+
+.qr-component .card .card-body .card-info {
+  font-weight: 400;
+  color: #7b879d;
+}
+/*# sourceMappingURL=style.css.map */

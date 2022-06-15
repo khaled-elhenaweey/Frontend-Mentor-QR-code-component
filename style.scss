@@ -1,0 +1,76 @@
+// style variables
+$white: hsl(0, 0%, 100%);
+$light-gray: hsl(212, 45%, 89%);
+$grayish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+$light-blue:hsl(228, 45%, 44%);
+// font 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+// file data 
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  background-color: $light-gray;
+  padding-bottom: 12px;
+
+  a {
+    color: $light-blue;
+    font-weight: 700;
+  }
+}
+
+// challenge section
+.qr-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $light-gray;
+  height: 100vh;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $white;
+    padding: 16px;
+    border-radius: 16px;
+    width: 240px;
+
+    .card-img {
+      width: 240px;
+      border-radius: 16px;
+      margin-bottom: 16px;
+    }
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      .card-title,
+      .card-info {
+        font-size: 15px;
+        margin-bottom: 12px;
+      }
+
+      .card-title {
+        font-weight: 700;
+        color: $dark-blue;
+      }
+
+      .card-info {
+        font-weight: 400;
+        color: $grayish-blue;
+      }
+    }
+  }
+}
